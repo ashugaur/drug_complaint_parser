@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "analytics-tasks-utils",
     "dtale>=3.18.2",
+    "nltk>=3.9.1",
     "pandas>=2.3.1",
+    "textblob>=0.19.0",
 ]
+
+[tool.uv.sources]
+analytics-tasks-utils = { path = "../analytics_tasks_utils/dist/analytics_tasks_utils-0.1.0-py3-none-any.whl" }
