@@ -1,63 +1,8 @@
 Reference:
 ----------
-https://github.com/amanat-mahmud/Customer_Complaint_Analysis?tab=readme-ov-file
-https://github.com/shubhamchouksey/Consumer-Complaint-Classification
+https://github.com/ramsrk7/Complaint-Classification-Analysis
+https://github.com/sama7fb/Consumer-Complaint-Resolution-Analysis/blob/main/codes/final.ipynb
 https://github.com/andygreen-1/Text_Analysis_Consumer_Complaints
-https://github.com/gulshang7/Financial-Consumer-Complaints-Data-Analysis-Using-Tableau-Dashboard
-https://github.com/nikhilrajak1207/Complaint_Analysis_Advanced_Excel_Project
 https://github.com/jayasrireddy19/Consumer-Complaints-sentiment-analysis
 https://github.com/shubhamchouksey/Consumer-Complaint-Classification/blob/master/ConsumerComplaintClassification.ipynb
 https://medium.com/@yashrajeshjadhav/automating-customer-complaint-classification-with-nlp-and-topic-modeling-enhancing-support-ticket-606465472d30
-https://github.com/ramsrk7/Complaint-Classification-Analysis
-https://github.com/sama7fb/Consumer-Complaint-Resolution-Analysis/blob/main/codes/final.ipynb
-
-
-
-
-
-Data type:
-----------
-date_received                   object
-product                         object
-sub_product                     object
-issue                           object
-sub_issue                       object
-consumer_complaint_narrative    object
-company_public_response         object
-company                         object
-state                           object
-zipcode                         object
-tags                            object
-consumer_consent_provided       object
-submitted_via                   object
-date_sent_to_company            object
-company_response_to_consumer    object
-timely_response                 object
-consumer_disputed?              object
-complaint_id                    int64 
-
-Missing values percentage for train data:
-Date received                    0.000000
-Product                          0.000000
-Sub-product                     28.925058
-Issue                            0.000000
-Sub-issue                       61.139322
-Consumer complaint narrative    84.342688
-Company public response         81.067696
-Company                          0.000000
-State                            0.809063
-ZIP code                         0.811293
-Tags                            86.002062
-Consumer consent provided?      71.689752
-Submitted via                    0.000000
-Date sent to company             0.000000
-Company response to consumer     0.000000
-Timely response?                 0.000000
-Consumer disputed?               0.000000
-Complaint ID                     0.000000
-
-
-
-
-
-
