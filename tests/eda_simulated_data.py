@@ -5,7 +5,7 @@ import pandas as pd
 import dtale
 from analytics_tasks_utils.reporting import eda_snapshot
 from analytics_tasks_utils.text import clean_text_df, pos_tags_df
-
+from ydata_profiling import ProfileReport
 
 ## Simulated data
 """
@@ -33,6 +33,10 @@ eda_snapshot(df)
 ## dtale
 d = dtale.show(df)
 d.open_browser()
+
+## Profile report
+profile = ProfileReport(df, title="Profiling Report")
+profile.to_file("your_report.html")
 
 ## Specific columns
 df.customer_country.value_counts()
